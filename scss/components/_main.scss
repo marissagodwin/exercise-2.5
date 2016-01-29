@@ -1,0 +1,23 @@
+html {
+	font-family: $helvetica;
+}
+
+h1 {
+	font-family: $lora;
+}
+
+.border{
+	border: 1px solid $rose;
+	p{
+		color: $serenity;
+
+	}
+}
+
+.primary-btn{
+	@include button ($rose);
+}
+
+ul{
+	@extend .border;
+}
